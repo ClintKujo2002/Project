@@ -534,8 +534,13 @@ body {
 /*-----------------------------------*\
   #BRAND
 \*-----------------------------------*/
-
+#type{
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
 .brand {
+  
   --section-padding: 60px;
   background-image: var(--gradient);
 }

@@ -587,20 +587,20 @@ body {
   z-index: -1;
 }
 
-.latest-game .section-title { margin-block-end: 80px; }
+.Brainstorm .section-title { margin-block-end: 80px; }
 
-.latest-game .has-scrollbar {
+.Brainstorm .has-scrollbar {
   margin-inline: -15px;
   padding-inline: 15px;
   scroll-padding-inline-start: 15px;
 }
 
-.latest-game-card {
+.Brainstorm-card {
   position: relative;
   box-shadow: var(--shadow-2);
 }
 
-.latest-game-card .card-content {
+.Brainstorm-card .card-content {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -609,26 +609,26 @@ body {
   padding: 35px 25px;
 }
 
-.latest-game-card .card-badge {
+.Brainstorm-card .card-badge {
   position: absolute;
   bottom: 100%;
   left: 25px;
 }
 
-.latest-game-card .card-title {
+.Brainstorm-card .card-title {
   margin-block-end: 12px;
   transition: var(--transition);
 }
 
-.latest-game-card .card-title:is(:hover, :focus) { color: var(--marigold); }
+.Brainstorm-card .card-title:is(:hover, :focus) { color: var(--marigold); }
 
-.latest-game-card .card-price {
+.Brainstorm-card .card-price {
   color: var(--silver);
   font-size: var(--fs-10);
   font-weight: var(--fw-600);
 }
 
-.latest-game-card .card-price .span { margin-inline-start: 5px; }
+.Brainstorm-card .card-price .span { margin-inline-start: 5px; }
 
 
 
